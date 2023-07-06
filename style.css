@@ -1,0 +1,152 @@
+.box{
+	width:20%;
+	height:100px;
+	border:1px solid;
+	text-align:center;
+	font-size:20px;
+	background-color:#00bcd4;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+
+}
+h1{
+	text-align:center;
+	font-size:40px;
+	color:red;
+	font-style:italic;
+}
+h2{
+	text-align:center;
+	color:green;
+	font-size:40px;
+	text-decoration:underline;
+}
+.column{
+	display:flex;
+	flex-direction:column;
+}
+.colrev{	
+	display:flex;
+	flex-direction:column-reverse;	
+}
+.row{
+	display:flex;
+	flex-direction:row;
+	background-color:;
+}
+.rowrev{
+	display:flex;
+	flex-direction:row-reverse;
+}
+.wrap{
+	display:flex;
+	flex-wrap:wrap;
+}
+.nowrap{
+	display:flex;
+	flex-wrap:nowrap;
+}			
+
+
+.wrapreverse{
+	display:flex;
+	flex-wrap:wrap-reverse;
+}
+.flexflow{
+	display:flex;
+	flex-flow:row,wrap;
+}
+.flexflowrcol{
+	display:flex;
+	flex-flow:column,wrap;
+}
+.justify{
+	display:flex;
+	justify-content:center;
+}
+.justifyst{
+	display:flex;
+	justify-content:flex-start;
+}
+.justifyed{
+	display:flex;
+	justify-content:flex-end;
+}
+.justifysa{
+	display:flex;
+	justify-content:space-around;
+}
+.justifybn{
+	display:flex;
+	justify-content:space-between;
+}
+.anstart{
+	
+	display:flex;
+	align-items:flex-start;
+	height:200px;
+}
+.anend{
+	display:flex;
+	align-items:flex-end;
+	height:200px;
+}
+.anstretch{
+	display:flex;
+	height:400px;
+	align-items:stretch;
+}
+.anbaseline{
+	height:200px;
+	text-align:center;
+	display:flex;
+	align-items:baseline;
+}
+.ancenter{
+	height:200px;
+	display:flex;
+	align-items:center;
+}
+.acaround{
+	display:flex;
+	align-content:space-around;
+} 
+
+.acstretch{
+	display:flex;
+	align-content:stretch;
+	height:400px;
+	flex-wrap:wrap;
+	background-color:red;
+} 
+.accenter{
+	display:flex;
+	align-content:center;
+} 
+
+.acflexstart{
+	display:flex;
+	align-content:flex-start;
+} 
+
+.acflexend{
+	display:flex;
+	align-content:flex-end;
+} 
+
+.acspacebetween{
+	display:flex;
+	flex-wrap:wrap;
+	align-content:space-between;
+	height:400px;
+} 
+
+.od h1{
+	color:blue;
+	
+}
+.childorder{
+	display:flex;
+	order:3;
+} 
